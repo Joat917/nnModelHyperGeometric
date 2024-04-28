@@ -1,0 +1,3 @@
+echo Server starting...
+start msedge -inprivate http://localhost:6009/
+tensorboard --logdir=model1-log --port=6009
